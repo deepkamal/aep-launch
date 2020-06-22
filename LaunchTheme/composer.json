@@ -3,9 +3,9 @@
     "description": "Launch datalayer for Pages",
     "require": {
         "php": "~7.3.0||~7.4.0",
-        "magento/framework": "*",
-        "magento/module-theme": "*",
-        "adobe/module-launch": "*"
+        "magento/framework": "102.0.*||103.0.*",
+        "magento/module-theme": "101.0.*||101.1.*",
+        "adobe/module-launch": "1.0.*"
     },
     "type": "magento2-module",
     "license": [
@@ -19,5 +19,6 @@
         "psr-4": {
             "Adobe\\LaunchTheme\\": ""
         }
-    }
+    },
+    "version": "1.0.0"
 }
